@@ -1,8 +1,8 @@
 # Static Literary Clock
 
-Basic python server with no dependencies. It produces a static webpage so that old e-readers can render the page.
+Basic python server with no dependencies. It produces a webpage without javascript, so that old e-readers can render the page.
 
-Note that, because the page is static, it uses the server's clock. So it should be run from e.g. your homeserver.
+Note that, because the page cannot use javascript, it uses the server's clock. So it should be run from e.g. your homeserver.
 
 To avoid duplication of work, the code relies on the collection of quotes [maintained by Johannes Enevoldsen](https://github.com/JohannesNE/literature-clock).
 The original idea and data proccessing was done by [Jaap Meijers](https://www.instructables.com/Literary-Clock-Made-From-E-reader/).
