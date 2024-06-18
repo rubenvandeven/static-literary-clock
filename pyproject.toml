@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "static-literature-clock"
+name = "static-literary-clock"
 version = "0.1.0"
-description = "Static webpage version of the Literature Clock for use with old eReaders"
+description = "Static webpage version of the Literary Clock for use with old eReaders"
 authors = ["Ruben van de Ven"]
 license = "MIT"
 readme = "README.md"
