@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "static-literature-clock"
+version = "0.1.0"
+description = "Static webpage version of the Literature Clock for use with old eReaders"
+authors = ["Ruben van de Ven"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+serve = "static_literature_clock.server:serve"
